@@ -79,6 +79,7 @@ addB(1200,300)
 function addC(x,y){
     return x + y
 }
+
 let q1 = addC(12,8)
 console.log(q1)
 console.log(q1 + 5)
