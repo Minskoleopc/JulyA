@@ -46,7 +46,6 @@ console.log(typeof z)
 
 console.log(typeof '10') // string 
 console.log(typeof 10)// number
-
 console.log(10 == '10')
 console.log(10 === '10')
 console.log(10 !== '10')
