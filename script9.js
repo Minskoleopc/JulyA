@@ -1,5 +1,5 @@
 // program 1
-let city = "pune"
+let city = "punee"
 switch (city) {
     case "pune":
         console.log("MH")
