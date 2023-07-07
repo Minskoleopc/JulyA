@@ -76,7 +76,7 @@ while (q4 <= 20) {
 
 // program 5
 let q5 = 50
-while (q5 >= 5) {
+while (q5 > 6) {
     console.log(q5)
     q5 = q5 - 5
 }
