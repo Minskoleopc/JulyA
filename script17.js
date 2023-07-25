@@ -84,6 +84,114 @@ console.log(n5)
 
 // 8:30 am
 
+//              0          1       2        3     4
+let names = ["chinmay","sarika","poorva","sham","yash"]
+//             -5         -4      -3       -2       -1
+
+
+// reverse()
+// console.log(names)
+// let a = names.reverse()
+// console.log(a)
+
+// sort()
+// let q22 = names.sort()
+// console.log(q22)
+
+
+let numA = [11,22,33]
+let numB = [44,55,66]
+
+let numC = numA.concat(numB)
+console.log(numC)
+
+let numD = numB.concat(numC)
+console.log(numD)
+
+// [11,22,33,44,55,66]
+
+let info = ["chinmay","deshpande",7709192441]
+let info3 = info.join('-')
+let info4 = info.join(' ')
+let info5 = info.join('@')
+console.log(info3)
+console.log(info5)
+console.log(info4)
+
+// flat
+//                    0                  1                        2
+//               0        1         0          1          0           1
+let states = [["Wardha","Nagpur"],["Jaipur","Udaipur"],["Banglore","Mysore"]]
+console.log(states[0][1])
+console.log(states[2][1])
+let info6 = states.flat()
+console.log(info6)
+
+
+// fill()
+
+
+
+
+
+
+
+
+
+//slice()
+//             0        1         2        3        4        5       6
+let namess = ["pune","wardha","nagpur","chennai","mysore","chennai","goa"]
+//              -7     -6       -5        -4        -3      -2        -1
+//namess.slice(startIndex:EndIndex(not inclusive))
+let q222 = namess.slice(1,6)
+let q223 = namess.slice(1)
+let q224 = namess.slice(0,-1)
+let q225 = namess.slice(-6,-3)
+let q226 = namess.slice(-6,6)
+let q227 = namess.slice(-1,-6)
+let q228 = namess.slice(0,-7)
+console.log(q222)
+console.log(q223)
+console.log(q224)
+console.log(q225)
+console.log(q226)
+console.log(q227)
+console.log(q228)
+
+
+// splice()
+//         0  1  2  3  4
+let nss = [11,22,33,44,55]
+console.log(nss)
+
+// nss.pop()
+// nss.unshift()
+//nss.splice(startIndex,numberofElementTobeDeleted)
+nss.splice(1,2)
+console.log(nss)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// at()
+
+
+
+
+
+
+
+
 
 
 
