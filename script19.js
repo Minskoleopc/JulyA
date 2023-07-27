@@ -67,7 +67,11 @@ console.log(j.at(1))
 let q1 = j.fill('chinmay',1,3)
 console.log(q1)
 
+let names = ["chinmay","sarika","ritu","ram"]
 
+// names.splice(1,2)
+names.splice(1,2,"sham","sita")
+console.log(names)
 
 
 
