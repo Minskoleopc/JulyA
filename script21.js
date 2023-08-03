@@ -98,6 +98,109 @@ console.log(q14.length)
 // trimEnd()
 // replace()
 
+let firstNamee = "Chinmay";
+let w1 = firstNamee.toUpperCase()
+console.log(w1)
+
+
+let w2 = firstNamee.toLowerCase()
+console.log(w2)
+
+let info = "applemangobananagrapes"
+let w3 = info.includes("go")
+console.log(w3)
+
+
+let flower = "lotus"
+// 0   1   2   3   4
+// l   o   t   u   s
+console.log(flower[0])
+let w4 = flower.indexOf('t')
+let w5 = flower.indexOf('T')
+console.log(w4)
+console.log(w5)
+
+
+let flower2 = "rose"
+let w6 = flower2.startsWith('r')
+let w7 = flower2.startsWith('ros')
+console.log(w6)
+console.log(w7)
+
+
+let w8 = flower2.endsWith('e')
+let w9 = flower2.endsWith('Se')
+console.log(w8)
+console.log(w9)
+
+let flower3 = " lily";
+console.log(flower3.length)
+let flower4 = flower3.trimStart()
+console.log(flower4.length)
+
+
+let flower5 = " sunflower "
+// console.log(flower5.length) 
+// flower5 = flower5.trimEnd()
+// console.log(flower5.length)
+flower5 = flower5.trim()
+console.log(flower5.length)
+
+
+let r  = "i am learning js"
+let flower6 = r.replace('js',"python")
+console.log(flower6)
+
+
+let firstName3 = "tanmay"
+let lastName3 = "dani"
+let q122 = firstName3.concat(lastName3)
+console.log(q122)
+
+
+let info5 = ["chinmay", "deshpande",7709192441]
+let q123 = info5.join("@")
+console.log(q123)
+
+let info7 = "i am learning javascript"
+//  ["i,"am","learning","javascript"]
+let q1234 = info7.split(" ")
+console.log(q1234)
+
+let q12345 = info7.split("a")
+console.log(q12345)
+//["i ","m le","rning j","v","script"]
+
+
+
+let birthCity = "chandrapur"
+
+// 0   1  2   3   4   5  6   7  8   9   
+// c   h  a   n   d   r  a   p  u   r
+//-10 -9 -8  -7  -6  -5 -4  -3  -2  -1
+
+console.log(birthCity.slice(2))
+console.log(birthCity.slice(2,9))
+console.log(birthCity.slice(2,-3))
+console.log(birthCity.slice(-9,-3))
+console.log(birthCity.slice(-9,6))
+console.log(birthCity.slice(-1,-5))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
